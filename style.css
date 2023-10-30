@@ -1,0 +1,97 @@
+/*
+Theme Name: FreeVent
+Theme URI: #
+Author: Momin Sarder
+Author URI: #
+Description: Event management, schedule arrange, speakers, Event Control, Organize, conference
+Version: v1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: freevent
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.bg-transparent-opacity {
+	background-color: rgba(255,255,255,0.8);
+  }
+/* comments css */
+
+#freevent_comments_wrapper {
+  padding: 20px 40px;
+}
+#comments {
+  padding: 10px 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.commentlist .comment {
+  background-color: #f7f7f7;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.comment-author.vcard {
+  width: 250px;
+  
+}
+.comment-author.vcard {
+  display: flex;
+  align-items: center;
+}
+.avatar.avatar-32.photo {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.fn {
+  margin-right: 10px;
+}
+
+
+#respond {
+  padding: 40px;
+  background-color: beige;
+}
+#reply-title {
+  font-size: 20px;
+}
+#commentform {
+  width: 100%;
+}
+.logged-in-as {
+  font-size: 14px;
+  color: #242222b5;
+  padding: 10px 0;
+}
+.logged-in-as a {
+  font-size: 16px;
+  font-weight: bold;
+}
+.comment-form-comment label {
+  display: block;
+  padding: 8px 0;
+}
+.comment-form-comment #comment {
+  width: 100%;
+  border-radius: 10px;
+}
+.form-submit .submit {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.3s;
+  background-color: white;
+  color: black;
+}
+.form-submit .submit:hover {
+  background-color: #111511;
+  color: white;
+  
+}
